@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FB91108694742B48C91F1F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CA1A63316C67F29A3A77B0 /* ContentView.swift */; };
+		86445A9B1B57BD1FAC3DCC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED5BE65DF31A02921F0C54C /* Assets.xcassets */; };
+		8A49E028622F45ED9B66ADF0 /* DomuraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8AB80D9C43773305B1316 /* DomuraTests.swift */; };
+		DAE2811A278877D741FD0997 /* DomuraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7107E5D069BABA4B3334F2FF /* DomuraApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D760D1D0A444562302D508B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4099CCC04AE99EDBEA1FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 738E8BC41E9152B530052B09;
+			remoteInfo = Domura;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB8AB80D9C43773305B1316 /* DomuraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomuraTests.swift; sourceTree = "<group>"; };
+		2ED5BE65DF31A02921F0C54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7107E5D069BABA4B3334F2FF /* DomuraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomuraApp.swift; sourceTree = "<group>"; };
+		74CA1A63316C67F29A3A77B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		894121610835645A8267853D /* DomuraTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DomuraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E1567EACE782A561D07D7E /* Domura.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Domura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		17006F644728E21FFB5C8F13 = {
+			isa = PBXGroup;
+			children = (
+				ADF9B39E6FEF781C0450D6A8 /* Domura */,
+				34B22E6BC5260A573C27F99C /* DomuraTests */,
+				400E2D7366CA10A886D4C6F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34B22E6BC5260A573C27F99C /* DomuraTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DB8AB80D9C43773305B1316 /* DomuraTests.swift */,
+			);
+			path = DomuraTests;
+			sourceTree = "<group>";
+		};
+		400E2D7366CA10A886D4C6F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3E1567EACE782A561D07D7E /* Domura.app */,
+				894121610835645A8267853D /* DomuraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADF9B39E6FEF781C0450D6A8 /* Domura */ = {
+			isa = PBXGroup;
+			children = (
+				2ED5BE65DF31A02921F0C54C /* Assets.xcassets */,
+				74CA1A63316C67F29A3A77B0 /* ContentView.swift */,
+				7107E5D069BABA4B3334F2FF /* DomuraApp.swift */,
+			);
+			path = Domura;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		483553A50268F1BC2EE50836 /* DomuraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B0674871E20CFAAA5D3B6A /* Build configuration list for PBXNativeTarget "DomuraTests" */;
+			buildPhases = (
+				52AD4242FC1F02A416249D56 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D74990B1D2311AAF390BB7 /* PBXTargetDependency */,
+			);
+			name = DomuraTests;
+			packageProductDependencies = (
+			);
+			productName = DomuraTests;
+			productReference = 894121610835645A8267853D /* DomuraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		738E8BC41E9152B530052B09 /* Domura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE5F1501770251A4FA76AAD /* Build configuration list for PBXNativeTarget "Domura" */;
+			buildPhases = (
+				3D01A5E6CE35A6319A8FF170 /* Sources */,
+				6B10B6A45573D9CFD8BE7A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Domura;
+			packageProductDependencies = (
+			);
+			productName = Domura;
+			productReference = F3E1567EACE782A561D07D7E /* Domura.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E4099CCC04AE99EDBEA1FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 54AD25316EABFE4D017A1B0F /* Build configuration list for PBXProject "Domura" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 17006F644728E21FFB5C8F13;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 400E2D7366CA10A886D4C6F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				738E8BC41E9152B530052B09 /* Domura */,
+				483553A50268F1BC2EE50836 /* DomuraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B10B6A45573D9CFD8BE7A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86445A9B1B57BD1FAC3DCC8C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D01A5E6CE35A6319A8FF170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB91108694742B48C91F1F4 /* ContentView.swift in Sources */,
+				DAE2811A278877D741FD0997 /* DomuraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52AD4242FC1F02A416249D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A49E028622F45ED9B66ADF0 /* DomuraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03D74990B1D2311AAF390BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 738E8BC41E9152B530052B09 /* Domura */;
+			targetProxy = D760D1D0A444562302D508B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0321E230FAF3E19ACFB0FCE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		042E776AF892908D7E2D9145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duestudios.DomuraTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Domura.app/Domura";
+			};
+			name = Debug;
+		};
+		2141A583A371D9F2D350BDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duestudios.domura;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A355AAD9154CE6045B07B356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A70D68EAD3CAAA14E5E3E9B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duestudios.domura;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0000A05A0786EAB6AA8FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duestudios.DomuraTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Domura.app/Domura";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FE5F1501770251A4FA76AAD /* Build configuration list for PBXNativeTarget "Domura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70D68EAD3CAAA14E5E3E9B4 /* Debug */,
+				2141A583A371D9F2D350BDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		54AD25316EABFE4D017A1B0F /* Build configuration list for PBXProject "Domura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A355AAD9154CE6045B07B356 /* Debug */,
+				0321E230FAF3E19ACFB0FCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0B0674871E20CFAAA5D3B6A /* Build configuration list for PBXNativeTarget "DomuraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042E776AF892908D7E2D9145 /* Debug */,
+				DE0000A05A0786EAB6AA8FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E4099CCC04AE99EDBEA1FAA /* Project object */;
+}
