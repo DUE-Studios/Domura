@@ -7,6 +7,7 @@ Monorepo for Domura by DUE Studios.
 | `ios/` | SwiftUI, iOS 17+ (project generated with XcodeGen) |
 | `android/` | Kotlin, Jetpack Compose, AGP 9 |
 | `backend/` | Supabase (local dev via Supabase CLI) |
+| `web/` | Waiting-list landing page + Vercel function (see `web/README.md`) |
 
 ## iOS
 

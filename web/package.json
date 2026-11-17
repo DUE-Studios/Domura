@@ -1,0 +1,10 @@
+{
+  "name": "domura-web",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "notify": "node scripts/notify-waitlist.mjs",
+    "notify:dry": "node scripts/notify-waitlist.mjs --dry-run"
+  }
+}
